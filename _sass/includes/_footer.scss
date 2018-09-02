@@ -1,12 +1,17 @@
 .site-footer {
     @extend %padding-regular;
     display: inline-block;
-    text-align: center;
+    text-align: left;
     width: 100%;
     color: lighten($text-color, 30%);
     font-size: 0.9em;
 
+    .footer-text {
+        font-size: 0.6em;
+    }
+
     .footer-icons {
+    text-align: center;
         ul {
             list-style: none;
             li {
